@@ -4,12 +4,17 @@
   "description": "credstash 'getSecret' for nodejs",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha tests/**/*-test.js"
   },
   "author": "Scott Vickers",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.5.3",
-    "base-64": "^0.1.0"
+    "aes-js": "^2.0.0",
+    "aws-sdk": "^2.5.3"
+  },
+  "devDependencies": {
+    "aws-sdk-mock": "^1.5.0",
+    "chai": "^3.5.0",
+    "mocha": "^3.0.2"
   }
 }
