@@ -6,15 +6,28 @@
   "scripts": {
     "test": "mocha tests/**/*-test.js"
   },
-  "author": "Scott Vickers",
-  "license": "ISC",
+  "author": {
+    "name": "Scott Vickers",
+    "email": "scott.w.vickers@gmail.com",
+    "url": "https://scottwvickers.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code-vicar/credstashjs.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "secrets",
+    "credstash"
+  ],
   "dependencies": {
     "aes-js": "^2.0.0",
     "aws-sdk": "^2.5.3"
   },
   "devDependencies": {
-    "aws-sdk-mock": "^1.5.0",
     "chai": "^3.5.0",
-    "mocha": "^3.0.2"
+    "mocha": "^3.0.2",
+    "proxyquire": "^1.7.10",
+    "sinon": "^1.17.5"
   }
 }
